@@ -1,0 +1,33 @@
+
+.Form input {
+    background: none;
+    border: none;
+    padding: 5px;
+    color: var(--color-secondary);
+    border: 2px solid var(--color-secondary);
+    border-radius: 4px;
+    width: 100%;
+}
+
+.Form input:focus {
+    outline:none;
+}
+
+.Form label {
+    color: var(--color-secondary);
+    display: block;
+    text-align: left;
+    font-size: 0.7em;
+    margin-bottom: 0;
+}
+
+.Required {
+    vertical-align: text-top;
+    font-size: 0.7em;
+}
+
+.ButtonHolder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

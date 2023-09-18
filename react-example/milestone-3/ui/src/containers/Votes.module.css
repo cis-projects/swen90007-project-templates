@@ -1,0 +1,13 @@
+.Votes {
+    overflow: scroll;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Votes ul {
+    list-style: none;
+}
+
+.Votes li {
+    margin: 10px auto 10px auto;
+}

@@ -1,0 +1,33 @@
+.Card {
+    text-align: left;
+    display: inline-block;
+    min-width: 110px;
+    max-width: 200px;
+    background-color: var(--color-primary);
+    border: 3px solid var(--color-secondary);
+    border-radius: 5px;
+    padding: 0 0 5px 0;
+}
+
+.Card hr {
+    border: 1px solid var(--color-secondary);
+    margin: 0;
+    padding: px;
+}
+
+.CardTitle {
+    font-style: italic;
+    font-weight: bold;
+    margin: 0px 10px 0px 10px;
+    font-size: 0.8em;
+}
+
+.CardSubtitle {
+    font-style: italic;
+    margin: 0px 10px 0px 10px;
+    font-size: 0.6em;
+}
+
+.CardContent {
+    padding: 0px 10px 0px 10px;
+}

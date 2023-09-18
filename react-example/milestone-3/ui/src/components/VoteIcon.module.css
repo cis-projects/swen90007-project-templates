@@ -1,0 +1,25 @@
+.Icon {
+    display: inline-block;
+    text-align: center;
+    cursor: inherit;
+}
+
+.large {
+    font-size: 50px;
+}
+
+.small {
+    font-size: 25px;
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   55% { transform: rotate(15deg); }
+   85% { transform: rotate(-9deg); }
+   92% { transform: rotate(5deg);}
+  100% { transform: rotate(0deg); }
+}
+
+.Icon:hover {
+    animation: wiggle 0.5s;
+}

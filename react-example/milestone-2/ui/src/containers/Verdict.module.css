@@ -1,0 +1,12 @@
+.Verdict {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Icon {
+    /* prevent shift with buttons on vote page */
+    border: 2px solid rgba(85,254,122,0); 
+    border-radius: 4px;
+    cursor: default;
+}

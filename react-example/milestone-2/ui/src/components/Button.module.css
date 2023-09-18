@@ -1,0 +1,13 @@
+.Button {
+    background: none;
+    border: 2px solid rgba(255,255,255,0);
+    border-radius: 4px;
+    padding: 3px;
+    margin: 0;
+    color: white;
+}
+
+.Button:hover {
+    cursor: pointer;
+    border-color: rgba(85,254,122,1);
+}
